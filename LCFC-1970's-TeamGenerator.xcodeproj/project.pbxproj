@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491ABB8BCB4493C6143690C0 /* libPods-LCFC-1970's-TeamGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1181B80352A6399F18707FDF /* libPods-LCFC-1970's-TeamGenerator.a */; };
 		DA2DBA0B2462C32700BFF954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DBA0A2462C32700BFF954 /* AppDelegate.swift */; };
 		DA2DBA0D2462C32700BFF954 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DBA0C2462C32700BFF954 /* SceneDelegate.swift */; };
 		DA2DBA0F2462C32700BFF954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DBA0E2462C32700BFF954 /* ViewController.swift */; };
 		DA2DBA122462C32700BFF954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2DBA102462C32700BFF954 /* Main.storyboard */; };
 		DA2DBA142462C32B00BFF954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2DBA132462C32B00BFF954 /* Assets.xcassets */; };
 		DA2DBA172462C32B00BFF954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2DBA152462C32B00BFF954 /* LaunchScreen.storyboard */; };
+		DA2DBA222462CCA500BFF954 /* SquadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2DBA212462CCA500BFF954 /* SquadData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1181B80352A6399F18707FDF /* libPods-LCFC-1970's-TeamGenerator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LCFC-1970's-TeamGenerator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B41D594BDAD3BE1506DE248 /* Pods-LCFC-1970's-TeamGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCFC-1970's-TeamGenerator.debug.xcconfig"; path = "Target Support Files/Pods-LCFC-1970's-TeamGenerator/Pods-LCFC-1970's-TeamGenerator.debug.xcconfig"; sourceTree = "<group>"; };
 		DA2DBA072462C32700BFF954 /* LCFC-1970's-TeamGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LCFC-1970's-TeamGenerator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2DBA0A2462C32700BFF954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA2DBA0C2462C32700BFF954 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		DA2DBA132462C32B00BFF954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA2DBA162462C32B00BFF954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA2DBA182462C32B00BFF954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2DBA212462CCA500BFF954 /* SquadData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadData.swift; sourceTree = "<group>"; };
+		FF8339C86BB4B2C17869BD7C /* Pods-LCFC-1970's-TeamGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCFC-1970's-TeamGenerator.release.xcconfig"; path = "Target Support Files/Pods-LCFC-1970's-TeamGenerator/Pods-LCFC-1970's-TeamGenerator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491ABB8BCB4493C6143690C0 /* libPods-LCFC-1970's-TeamGenerator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		559083F19D3BF6A98A173E00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1181B80352A6399F18707FDF /* libPods-LCFC-1970's-TeamGenerator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D4E4BF6B77523F1C0A07DE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B41D594BDAD3BE1506DE248 /* Pods-LCFC-1970's-TeamGenerator.debug.xcconfig */,
+				FF8339C86BB4B2C17869BD7C /* Pods-LCFC-1970's-TeamGenerator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA2DB9FE2462C32700BFF954 = {
 			isa = PBXGroup;
 			children = (
 				DA2DBA092462C32700BFF954 /* LCFC-1970's-TeamGenerator */,
 				DA2DBA082462C32700BFF954 /* Products */,
+				5D4E4BF6B77523F1C0A07DE2 /* Pods */,
+				559083F19D3BF6A98A173E00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,40 @@
 		DA2DBA092462C32700BFF954 /* LCFC-1970's-TeamGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				DA2DBA202462CC5F00BFF954 /* Controller */,
+				DA2DBA1F2462CC5000BFF954 /* View */,
+				DA2DBA1E2462CC3D00BFF954 /* Model */,
 				DA2DBA0A2462C32700BFF954 /* AppDelegate.swift */,
 				DA2DBA0C2462C32700BFF954 /* SceneDelegate.swift */,
-				DA2DBA0E2462C32700BFF954 /* ViewController.swift */,
-				DA2DBA102462C32700BFF954 /* Main.storyboard */,
 				DA2DBA132462C32B00BFF954 /* Assets.xcassets */,
 				DA2DBA152462C32B00BFF954 /* LaunchScreen.storyboard */,
 				DA2DBA182462C32B00BFF954 /* Info.plist */,
 			);
 			path = "LCFC-1970's-TeamGenerator";
+			sourceTree = "<group>";
+		};
+		DA2DBA1E2462CC3D00BFF954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DBA212462CCA500BFF954 /* SquadData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA2DBA1F2462CC5000BFF954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DBA102462C32700BFF954 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA2DBA202462CC5F00BFF954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA2DBA0E2462C32700BFF954 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +125,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA2DBA1B2462C32B00BFF954 /* Build configuration list for PBXNativeTarget "LCFC-1970's-TeamGenerator" */;
 			buildPhases = (
+				3935B2705286A17ED835501D /* [CP] Check Pods Manifest.lock */,
 				DA2DBA032462C32700BFF954 /* Sources */,
 				DA2DBA042462C32700BFF954 /* Frameworks */,
 				DA2DBA052462C32700BFF954 /* Resources */,
@@ -133,11 +185,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3935B2705286A17ED835501D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LCFC-1970's-TeamGenerator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA2DBA032462C32700BFF954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA2DBA222462CCA500BFF954 /* SquadData.swift in Sources */,
 				DA2DBA0F2462C32700BFF954 /* ViewController.swift in Sources */,
 				DA2DBA0B2462C32700BFF954 /* AppDelegate.swift in Sources */,
 				DA2DBA0D2462C32700BFF954 /* SceneDelegate.swift in Sources */,
@@ -282,6 +360,7 @@
 		};
 		DA2DBA1C2462C32B00BFF954 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B41D594BDAD3BE1506DE248 /* Pods-LCFC-1970's-TeamGenerator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +378,7 @@
 		};
 		DA2DBA1D2462C32B00BFF954 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF8339C86BB4B2C17869BD7C /* Pods-LCFC-1970's-TeamGenerator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
